@@ -1,0 +1,4 @@
+plastic_cup.raw
+trash_bin.raw
+chairs.raw
+notice_sign.raw

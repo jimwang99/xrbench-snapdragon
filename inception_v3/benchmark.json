@@ -1,0 +1,27 @@
+{
+    "Name": "Inception_v3",
+    "HostRootPath": "inception_v3",
+    "HostResultsDir": "inception_v3/results",
+    "DevicePath": "/data/local/tmp/snpebm",
+    "Devices": [
+        "R3CT60H611X"
+    ],
+    "HostName": "localhost",
+    "Runs": 2,
+    "Model": {
+        "Name": "INCEPTION_V3",
+        "Dlc": "/opt/qcom/aistack/snpe/2.14.2.230905/examples/Models/inception_v3/dlc/inception_v3_quantized.dlc",
+        "InputList": "input_list.txt",
+        "Data": [
+            "/opt/qcom/aistack/snpe/2.14.2.230905/examples/Models/inception_v3/data/cropped/"
+        ]
+    },
+    "Runtimes": [
+        "GPU",
+        "CPU",
+        "DSP"
+    ],
+    "Measurements": [
+        "timing"
+    ]
+}
