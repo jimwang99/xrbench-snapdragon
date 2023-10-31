@@ -2,4 +2,4 @@
 
 Run XRBench models on Snapdragon SoCs
 
-- [x] inception_v3: Canned example model
+[Run ML Models Use Qualcomm SNPE Part 1 Canned Example](https://publish.obsidian.md/jimw/Publish/Run+ML+Models+Use+Qualcomm+SNPE+Part+1+Canned+Example)
